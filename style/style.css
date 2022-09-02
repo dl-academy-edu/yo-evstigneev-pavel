@@ -1,60 +1,14 @@
-body {
-    font-family: 'Montserrat', 'Open Sans' 'Crimson Text' sans-serif;
-    src: url();
-}
-li {
-    list-style-type: none;
-}
-img {
-    display: block;
-    max-width: 100%;
-}
-a {
-    text-decoration: none;
-}
-
-/* styles for header */
-.container {
-    font-family: 'Open Sans' sans-serif;
-    src: url();
-    max-width: 1180px;
-    margin: 0 auto;
-    margin-left: 110px;
-}
-.header {
-    -moz-column-gap: 20px;
-    -webkit-column-gap: 20px;
-    align-items: center;
-}
-.nav {
-    display: flex;
-    margin-top: 50px;
-    align-items: center;
-    margin-bottom: 40px;
-}
-.nav__list {
-    display: flex;
-} 
-.nav__list_item {
-    margin-right: 20px;
-}
-.nav__list_link {
-    color: #1E0606;
-}
-.contact__wrapper {
-    margin-left: auto;
-    font-weight: 700;
-}
-.nav__contact {
-    color: #1E0606;
-    text-transform: uppercase;
-    margin-left: 24px;
-}
-
-
 /* styles for the main content */
 .banner{
+    position: relative;
     background: #EEE4DB;
+}
+.digits {
+    margin-left: 28px;
+    font-weight: 200px;
+    font-size: 60px;
+    line-height: 74px;
+    color: rgba(30, 6, 6, 0.06);
 }
 .btn__1 {
     width: 32px;
@@ -67,6 +21,10 @@ a {
     height: 4px;
     background: #D6CAC2;
     border: none;
+}
+.slide__text {
+    display: flex;
+    flex-direction: column;
 }
 .title {
     font-family: 'Montserrat' sans-serif;
@@ -85,17 +43,28 @@ a {
     line-height: 26px;
     padding-left: 134px;
 }
-.digits {
-    font-family: 'Montserrat' sans-serif;
-    font-weight: 200px;
-    font-size: 60px;
-    line-height: 74px;
-    color: rgba(30, 6, 6, 0.06);
-}
 .title_img {
-    
+   position: absolute;
+   width: 636px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+}
+.title__offer {
+    font-family: 'Open Sans' sans-serif;
+    src: url(../static/fonts/OpenSans-Italic-VariableFont_wdth\,wght.woff2);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #C29974;
 }
 .botton__link {
+    display: block;
     font-size: 16px;
     line-height: 22px;
     text-transform: uppercase;

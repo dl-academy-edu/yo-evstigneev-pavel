@@ -1,10 +1,45 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'Open Sans' 'Crimson Text' sans-serif;
     src: url();
+}
+li {
+    list-style-type: none;
+}
+img {
+    display: block;
+    max-width: 100%;
 }
 a {
     text-decoration: none;
 }
-li {
-    list-style-type: none;
+
+
+/* styles for header */
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.nav__list {
+    display: flex;
+} 
+.nav__list_item {
+    margin-right: 20px;
+}
+.nav__list_link {
+    color: #1E0606;
+}
+.contact__wrapper {
+    margin-left: auto;
+    font-weight: 700;
+}
+.nav__contact {
+    color: #1E0606;
+    text-transform: uppercase;
+    margin-left: 24px;
 }
