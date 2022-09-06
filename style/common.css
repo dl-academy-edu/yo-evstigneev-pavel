@@ -12,6 +12,19 @@ img {
 a {
     text-decoration: none;
 }
+* {
+    margin: 0;
+}
+.botton__link {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 22px;
+    max-width: max-content;
+    background: black;
+    border: none;
+}
 
 
 /* styles for header */
