@@ -1,0 +1,64 @@
+/* styles for the main content */
+.contact__from {
+    display: flex;
+    justify-content: space-between;  
+}
+.form_cnt {
+    margin: 42px 40px;
+    background: #E5EAF8;
+    padding: 40px 42px;
+}
+.input_name {
+    display: block;
+    width: 600px;
+    height: 50px;
+    margin-top: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input_phone, .input_email {
+    display: block;
+    width: 290px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input_message {
+    display: block;
+    margin-top: 3px;
+    resize: none;
+    width: 600px;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input_processing {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    width: 14px;
+    height: 14px;
+}
+.input_processing::before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url(../static/icons/frame.svg);
+    margin-right: 15px;
+    cursor: pointer;
+}
+.contact__wrap {
+    margin-left: 120px;
+}
+.contact__text {
+    margin-bottom: 20px;
+}
+.contact__text1 {
+    margin-bottom: 20px;
+}
+.contact__title {
+    width: 380px;
+    text-transform: uppercase;
+    color: #C29974;
+}
