@@ -14,6 +14,7 @@ a {
 }
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .botton__link {
@@ -45,6 +46,7 @@ margin-top: 20px;
 }
 .nav__list {
     display: flex;
+    margin-left: 60px;
 } 
 .nav__list_item {
     margin-right: 20px;
@@ -60,4 +62,38 @@ margin-top: 20px;
     color: #1E0606;
     text-transform: uppercase;
     margin-left: 24px;
+}
+
+
+/* bread crumb styles */
+.bread_crumb {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.title_crubs {
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+.crub_ul {
+    display: flex;
+    margin-top: 15px;
+}
+.link_crub {
+    color: #1E0606;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.crub_li:not(:last-child)::after {
+    content: url(../static/icons/vector_crumb.svg);
+    margin: 20px;
+}
+.link_crub1 {
+    color: #1E0606;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
 }
