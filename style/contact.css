@@ -1,9 +1,7 @@
 /* styles for the main content */
-.ema {
-position: relative;
-}
 .contact__from {
     display: flex;  
+    justify-content: space-between;
 }
 .form_cnt {
     background: #E5EAF8;
@@ -33,35 +31,14 @@ position: relative;
 .input_message {
     display: block;
     margin-top: 3px;
+    margin-bottom: 20px;
     resize: none;
     width: 600px;
     height: 150px;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
-
-.input_processing {
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
-}
-
-.input_processing + .processing_text {
-    display: inline-flex;
-    align-items: center;
-    user-select: none;
-}
-
-.input_processing + .processing_text::before {
-    content: "";
-    display: inline-block;
-    width: 19px;
-    height: 19px;
-    background-image: url(../static/icons/frame.svg);
-    margin-right: 15px;
-    cursor: pointer;
-}
-.input_processing:checked + .processing_text::before {
-        background-image: url(../static/icons/frame_check.svg);
+.contact__wrap {
+    width: 380px;
 }
 .contact__text {
     margin-bottom: 20px;

@@ -1,10 +1,31 @@
 /* styles for the main content */
-.section_blog {
-}
 .blog_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    row-gap: 34px;
 }
 .blog_list {
+    max-width: 380px;
 }
-.blog_link {
-
+.blog_text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #818181;
+    mix-blend-mode: normal;
+}
+.blog-li__tetx {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #1E0606;
+}
+.blog_text1 {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
 }
