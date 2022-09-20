@@ -92,16 +92,20 @@
 .direction__btn {
     margin-right: 6px;
     background-image: url(../static/icons/vector_to_the_left.svg);
-    width: 18px;
-    height: 30px;
+    width: 36px;
+    height: 37px;
     background-color: rgba(112, 187, 220, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
     border: none;
 }
 .direction__btn1 {
     background-image: url(../static/icons/vector_to_the_right.svg);
-    width: 18px;
-    height: 30px;
+    width: 36px;
+    height: 37px;
     background-color: rgba(112, 187, 220, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
     border: none;
 }
 .products__text {
@@ -114,27 +118,35 @@
 .delivery {
     margin-top: 90px;
     display: flex;
+    column-gap: 60px;
 }
 .delivery__wrapper {
-    margin: 30px 120px;
     width: 540px;
+}
+.delivery__title {
+    display: inline-block;
+    padding: 11px 60px
 }
 .delivery__text {
     display: inline-block;
     background-color: #70BBDC33;
     padding: 11px 178px 10px 60px;
 }
+.delivery__text1 {
+    display: inline-block;
+    padding: 11px 60px;
+}
 .delivery__text2 {
-    margin-top: 22px;
+    display: block;
+    padding: 22px 60px;
 }
 .delivery__text3 {
-    margin-top: 30px;
-    width: 480px;
+    padding: 30px 60px;
 }
 .delivery__text4 {
-    margin-top: 15px;
     margin-bottom: 26px;
     width: 480px;
+    padding: 15px 60px
 }
 .shift {
     margin-left: 60px;
@@ -155,7 +167,6 @@
 .company__item {
     opacity: 0.8;
     width: 216px;
-    height: 46px;
 }
 
 
