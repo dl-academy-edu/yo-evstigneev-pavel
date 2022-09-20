@@ -48,7 +48,7 @@
             <section class="banner">
                     <div class="slider__menu">
                         <span class="digits">01</span>
-                        <ul>
+                        <ul class="digits__ul">
                             <li>
                                 <button class="btn__1"></button>
                             </li>
@@ -65,10 +65,8 @@
                     </div>
                         <div class="slide__text">
                             <h1 class="title">THE OOH NOO COLLECTION</h1>
-                        <p class="title_text">Designed in Slovenia</p>
-                        <button class="botton__link" type="button">
-                            EXPLORE NOW
-                        </button>
+                            <p class="title_text">Designed in Slovenia</p>
+                            <button class="botton__link" type="button">EXPLORE NOW</button>
                         </div>
                     <img class="title_img" src="./static/image/monster_in_a_wheelbarrow_on_a_banner.png" alt="banner">
             </section>
@@ -78,39 +76,37 @@
         
     <div class="container">
         <section class="category_products">
+            <h2 class="products__title">Category Products</h2>
             <div class="products__wrapper">
-                <h2 class="title">Category Products</h2>
-            <ul>
-                <li class="product__item">
-                    <img src="./static/image/apparel_kids.jpg" alt="apparel_kids">
-                    <a href="#">APPAREL KIDS</a>
+            <ul class="products__ul">
+                <li class="products__li">
+                    <img src="../static/image/apparel_kids.jpg" class="catalog__img" alt="apparel_kids">
+                    <a href="#"> <p class="catalog__item">APPAREL KIDS</p></a>
                 </li>
-                <li class="product__item">
-                    <img src="./static/image/holiday_shop.jpg" alt="holiday_shop">
-                    <a href="#">HOLIDAY SHOP</a>
+
+                <li class="products__li">
+                    <img src="../static/image/holiday_shop.jpg" class="catalog__img" alt="holiday_shop">
+                    <a href="#"> <p class="catalog__item">HOLIDAY SHOP</p></a>
                 </li>
-                <li class="product__item">
-                    <img src="./static/image/toys.jpg" alt="toys">
-                    <a href="#">TOYS</a>
+
+                <li class="products__li">
+                    <img src="../static/image/toys.jpg" class="catalog__img"alt="toys">
+                    <a href="#"> <p class="catalog__item">TOYS</p></a>
                 </li>
-                <li class="product__item">
-                    <img src="./static/image/accessories.jpg" alt="accessories">
-                    <a href="#">ACCESSORIES</a>
+
+                <li class="products__li">
+                    <img src="../static/image/accessories.jpg" class="catalog__img"alt="accessories">
+                    <a href="#"> <p class="catalog__item">ACCESSORIES</p></a>
                 </li>
             </ul>
             </div>
-            <button>
-                <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-width="4"/>
-                    </svg>
-                    
-            </button>
-            <button>
-                <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-width="4"/>
-                    </svg>      
-            </button>
-            <p class="about__text">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+
+            <div class="bts-text__wrap">
+                <button class="direction__btn"></button>
+                <button class="direction__btn1"></button>
+                <p class="products__text">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+            </div>
+            
         </section>
     </div>
     
@@ -118,12 +114,12 @@
         <section class="delivery">
             <img src="./static/image/delivery.jpg" alt="delivery">
             <div class="delivery__wrapper">
-                <h2 class="title">Delivery</h2>
+                <h2 class="delivery__title">Delivery</h2>
             <p class="delivery__text">Delivery</p>
-            <p class="title_text">Guarantee</p>
-            <p class="title_text">Credit</p>
-            <p class="about__text">Some days i feel like i've been working on dlk my entire life andthere are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-            <p class="about__text">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+            <p class="delivery__text1">Guarantee</p>
+            <p class="delivery__text2">Credit</p>
+            <p class="delivery__text3">Some days i feel like i've been working on dlk my entire life andthere are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+            <p class="delivery__text4">What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
             <a href="#" class="botton__link">LEARN MORE</a>
             </div>
     </section>
@@ -132,43 +128,40 @@
         
     <div class="container">
         <section class="company">
-                <h2 class="title__2">Company list</h2>
+                <h2 class="compani__title">Company list</h2>
             <ul class="company__list">
                 <li class="company__item">
-                    <img src="./static/image/mail_ru.png" alt="mail_ru_company">
+                    <img src="./static/image/mail_ru.png" alt="mail_ru_company" class="company__img">
                 </li>
                 <li class="company__item">
-                    <img src="./static/image/apple.png" alt="apple_company">
+                    <img src="./static/image/apple.png" alt="apple_company" class="company__img">
                 </li>
                 <li class="company__item">
-                    <img src="./static/image/eltex.png" alt="eltex_company">
+                    <img src="./static/image/eltex.png" alt="eltex_company" class="company__img">
                 </li>
                 <li class="company__item">
-                    <img src="./static/image/owox.png" alt="owox_company">
+                    <img src="./static/image/owox.png" alt="owox_company" class="company__img">
                 </li>
             </ul>
         </section>
     </div> 
 
+    
     <div class="container">
-        <div class="about__wrapper">
-            <section class="adress__map">
-                <h2 class="title">Design Life Kids</h2>
-                <p class="title_text">About Us</p>
+        <section class="adress__map">
+            <div class="about__wrapper">
+                <h2 class="about__title">Design Life Kids</h2>
+                <p class="about__text1">About Us</p>
                 <p class="about__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-            </section>
-            <button class="botton__link" type="button">
-                buy now
-            </button>
-        </div>
-        
-        <div class="about__wrapper">
-            <section class="contacts">
-                <h2 class="title">Contacts</h2>
+                <button class="botton__link" type="button">buy now</button>
+            </div>
+    
+            <div class="about__wrapper">
+                <h2 class="about__title">Contacts</h2>
                 <p class="about__text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.6851021868506!2d49.28748761618394!3d53.50982038001365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4168797f9a8510e9%3A0x5af0ee3dab85a41c!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1662361493632!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>>
-        </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.6851021868506!2d49.28748761618394!3d53.50982038001365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4168797f9a8510e9%3A0x5af0ee3dab85a41c!2z0L_RgC4g0KHRgtC10L_QsNC90LAg0KDQsNC30LjQvdCwLCA0NCwg0KLQvtC70YzRj9GC0YLQuCwg0KHQsNC80LDRgNGB0LrQsNGPINC-0LHQuy4sIDQ0NTAyNw!5e0!3m2!1sru!2sru!4v1662361493632!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+        </section>
     </div>
 </main>
 

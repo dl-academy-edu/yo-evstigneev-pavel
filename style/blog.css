@@ -30,12 +30,12 @@
     align-items: center;
     justify-content: space-between;
 }
-.direction_vector {
+.pagination_vector {
     background-image: url(../static/icons/vector_pagination_1.svg);
     width: 19px;
     height: 31px;
 }
-.direction_vector:hover {
+.pagination_vector:hover {
     color: #C29974;
 }
 .pag_ul {
@@ -50,11 +50,11 @@
 .span_nb:hover {
     color: #C29974;
 }
-.direction_vector1 {
+.pagination_vector1 {
     background-image: url(../static/icons/vector_pagination_2.svg);
     width: 19px;
     height: 31px;
 }
-.direction_vector1:hover {
+.pagination_vector1:hover {
     color: #C29974;
 }

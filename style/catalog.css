@@ -1,0 +1,28 @@
+/* styles for the main content */
+.catalog__ul {
+    display: flex;
+    margin: 0 -10px -20px -10px;
+    flex-wrap: wrap;
+}
+.catalog__li {
+    position: relative;
+    margin: 0 10px 20px 10px;
+    width: 280px;
+}
+.catalog__li:nth-child(3) {
+    margin-right: 205px;
+}
+.catalog__li:nth-child(4) {
+    margin-left: 200px;
+}
+.Description {
+    margin: 55px 190px;
+    width: 680px;
+}
+.Description_title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.Description_text {
+    margin-top: 15px;
+}

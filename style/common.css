@@ -90,6 +90,20 @@ margin-top: 20px;
 }
 
 
+/* style for the catalog */
+.catalog__img {
+    width: 280px;
+    height: 270px;
+}
+.catalog__item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF;
+}
+
+
 /* bread crumb styles */
 .bread_crumb {
     margin-top: 60px;
