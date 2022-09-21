@@ -1,4 +1,8 @@
 /* styles for the main content */
+.contact__from {
+    display: flex;  
+    justify-content: space-between;
+}
 .contact__wrap {
     width: 380px;
 }

@@ -1,5 +1,6 @@
 /* styles for the main content */
 .banner{
+    position: relative;
     display: flex;
     column-gap: 44px;
     background: #eee4db;
@@ -31,7 +32,6 @@
     border: none;
 }
 .slide__text {
-    position: relative;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -39,14 +39,17 @@
     margin: 89px 0 89px 0;
 }
 .title {
-    margin: 0;
+    margin-top: -14px;
+}
+.title_text {
+    margin-top: -20px;
 }
 .title_img {
    position: absolute;
    width: 636px;
     height: 461px;
-    left: 555px;
-    top: 142px;
+    left: 452px;
+    top: -84px;
 }
 .title__offer {
     font-family: 'Open Sans', sans-serif;
@@ -67,7 +70,6 @@
 }
 .products__title {
     margin-bottom: 30px;
-    text-transform: uppercase;
 }
 .products__ul {
     display: flex;
@@ -122,6 +124,11 @@
     display: inline-block;
     background-color: #70BBDC33;
     padding: 11px 178px 10px 60px;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
 }
 .delivery__text1 {
     display: inline-block;
@@ -176,14 +183,22 @@
 .about__wrapper1 {
     background: #E1F0F7;
     width: 543px;
-    height: 228px;
+    height: 210px;
     padding-left: 30px;
 }
 .about__title {
-    margin-top: -15px;
+    margin-top: -24px;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
 }
 .about__text1 {
     margin-top: 10px;
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
 }
 .about__text {
     margin-top: 10px;
