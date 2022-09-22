@@ -1,5 +1,6 @@
 /* styles for the main content */
 .banner{
+    margin-top: 130px;
     position: relative;
     display: flex;
     column-gap: 44px;
@@ -47,8 +48,8 @@
 .title_img {
    position: absolute;
    width: 636px;
-    height: 461px;
-    left: 452px;
+   height: 444px;
+   left: 450px;
     top: -84px;
 }
 .title__offer {
@@ -114,7 +115,7 @@
     column-gap: 60px;
 }
 .delivery__wrapper {
-    width: 540px;
+    width: auto;
 }
 .delivery__title {
     display: inline-block;
@@ -139,11 +140,10 @@
     padding: 22px 60px;
 }
 .delivery__text3 {
-    padding: 30px 60px;
+    padding: 0px 60px;
 }
 .delivery__text4 {
     margin-bottom: 26px;
-    width: 480px;
     padding: 15px 60px
 }
 .shift {

@@ -46,6 +46,26 @@
 
 
 /* values for all pages */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  }
 li {
     list-style-type: none;
 }
@@ -70,6 +90,7 @@ a {
     max-width: max-content;
     background: black;
     border: none;
+    
 }
 
 
@@ -82,7 +103,6 @@ a {
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 40px;
 }
 .nav__list {
     display: flex;
